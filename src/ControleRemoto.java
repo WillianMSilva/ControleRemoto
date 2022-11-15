@@ -10,21 +10,21 @@ public class ControleRemoto implements Controlador {
         this.tocando = false;
     }
 // métodos getters e setters
-    public int getVolume() {
+    private int getVolume() {
         return volume;
-    }public void setVolume(int volume) {
+    }private void setVolume(int volume) {
         this.volume = volume;
     }
 
-    public boolean getLigado() {
+    private boolean getLigado() {
         return ligado;
-    }public void setLigado(boolean ligado) {
+    }private void setLigado(boolean ligado) {
         this.ligado = ligado;
     }
 
-    public boolean getTocando() {
+    private boolean getTocando() {
         return tocando;
-    }public void setTocando(boolean tocando) {
+    }private void setTocando(boolean tocando) {
         this.tocando = tocando;
     }
 //métodos abstratos
