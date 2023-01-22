@@ -3,7 +3,7 @@ public class ControleRemoto implements Controlador {
     private int volume;
     private boolean ligado;
     private boolean tocando;
-// método contrutor
+// método construtor
     public ControleRemoto(){
         this.volume = 50;
         this.ligado = false;
