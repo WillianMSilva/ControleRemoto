@@ -6,6 +6,8 @@ public class App {
         c.ligar();
         c.menosvolume();
         c.menosvolume();
+       // c.desligar();
+       c.mudo();
 
 
 
